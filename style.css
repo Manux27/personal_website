@@ -4,15 +4,16 @@
 
 html {
     background-color: lightgreen;
+    margin: 0px;
 }
 
 body {
     padding: 0px;
-    margin: 0px;
+    margin: 0px 0px 30px 0px;
 }
 
 header {
-    background-color: green;
+    background-color: greenyellow;
     color: white;
     display: flex;
     margin-bottom: 30px;
@@ -23,7 +24,7 @@ header {
 #content {
     display: inline-flex;
     justify-content: center;
-    margin: 0px 20%;
+    margin: 0px 20% 30px;
 }
 
 #content img {
@@ -36,16 +37,43 @@ header {
 
 .main_content{
     margin-right: 50px;
-
+    padding: 10px;
 }
 
 .main_content h2{
-    display: flex;
-    justify-self: center;   
+    display: block;
+    text-align: center;   
+    font-size: 26px;
 }
 
 .main_content p{
     color: rgb(106,106,106);
     font-size: 20px;
     text-align: justify;
+}
+
+footer {
+    background-color: greenyellow;
+    margin-bottom: 0px;
+    /*padding: 20px;*/
+    height: 140px;
+}
+
+.list_title {
+    font-size: 18px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+footer li{
+    list-style-type: none;
+}
+
+footer .github_icon {
+    margin-left: 0px;
+}
+
+.icons{
+    display: flex;
+    font-size: 30px;
 }
